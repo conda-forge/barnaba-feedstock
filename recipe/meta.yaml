@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/srnas/barnaba/archive/{{ version }}.tar.gz
-  sha256: cdf243f7e13d5266a4397641d3609409c4b2d7b7765a18bc98a66e1e25f29258
+  sha256: 7751634bdbb700667d683f21f1baf42ebea7b763c35c8c64c3f74698553486df
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   script: "{{ PYTHON }} -m pip install . -vv"
 
