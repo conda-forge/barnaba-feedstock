@@ -11,20 +11,20 @@ source:
 
 build:
   number: 1
-  skip: True  # [win]
+  noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
     - setuptools_scm
     - setuptools_scm_git_archive
-    - python
+    - python >=3.6
     - pip
   run:
     - future
     - mdtraj
     - numpy
-    - python
+    - python >=3.6
     - scikit-learn
 
 test:
