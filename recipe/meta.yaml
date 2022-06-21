@@ -16,16 +16,15 @@ build:
 
 requirements:
   host:
-    - setuptools_scm
-    - setuptools_scm_git_archive
-    - python >=3.6
+    - python
     - pip
   run:
     - future
     - mdtraj
     - numpy
-    - python >=3.6
+    - python
     - scikit-learn
+    - scipy
 
 test:
   imports:
