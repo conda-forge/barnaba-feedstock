@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
-    - python>=3.6
+    - python >=3.6
     - pip
   run:
     - future
     - mdtraj
     - numpy
-    - python>=3.6
+    - python >=3.6
     - scikit-learn
     - scipy
 
